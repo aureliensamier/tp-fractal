@@ -1,18 +1,27 @@
 .a-paragraph {
-  font-family: var(--fontFamilyMain);
-  font-size: var(--fontSizeM);
-  line-height: var(--lineHeightMain);
+  text-align: center;
+  font: Regular 12px/14px var(--fontFamilyMain);
+  letter-spacing: 0px;
+  color: var(--colorTextMenu);
+  opacity: 1;
+}
 
-  code {
-    font-family: var(--fontFamilyCode);
-    font-weight: var(--fontWeightBold);
-  }
 
-  strong {
-    font-weight: var(--fontWeightBold);
-  }
+.a-paragraph-description {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 309px;
+  text-align: center;
+  font: Regular 16px/18px var(--fontFamilyMain);
+  letter-spacing: 0px;
+  color: var(--colorTextDescription);
+  opacity: 1;
+}
 
-  em {
-    font-style: italic;
-  }
+.a-paragraph-footer {
+text-align: center;
+font: Regular 16px/18px var(--fontFamilyMain);
+letter-spacing: 0px;
+color: var(--colorTextReversed);
+opacity: 1;
 }

@@ -8,7 +8,6 @@
   &::before,
   &::after {
     content: '';
-    background-color: var(--colorPrimary);
     grid-row: 1;
     width: calc(100% + var(--spaceL));
     z-index: -1;
@@ -37,5 +36,18 @@
   & > footer {
     grid-column: 1 / span 3;
     grid-row: 3;
+  }
+}
+
+.l-main__items {
+  &>*+* {
+    margin-top: 70px;
+  }
+}
+
+.l-list__items {
+  @include wide {
+    display: flex;
+    justify-content: space-between;
   }
 }

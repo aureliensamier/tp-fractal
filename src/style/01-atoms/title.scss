@@ -1,19 +1,33 @@
 .a-title {
-  color: var(--colorPrimary);
-  font-family: var(--fontFamilyTitle);
+  text-align: center;
+  font: Bold 20px/23px var(--fontFamilyMain);
+  letter-spacing: var(--spaceXS);
+  color: var(--colorTextTitle);
+  opacity: 1;
 }
 
 .a-title--level1 {
-  font-size: var(--fontSizeXXL);
-  text-transform: uppercase;
+  text-align: center;
+  font: Bold 24px/28px var(--fontFamilyMain);
+  letter-spacing: 0px;
+  color: var(--colorTextTitlemain);
+  opacity: 1;
 }
 
 .a-title--level2 {
-  font-size: var(--fontSizeXL);
+  text-align: center;
+  font: Bold 20px/23px var(--fontFamilyMain);
+  letter-spacing: 0px;
+  color: var(--colorTextReversed);
+  opacity: 1;
 }
 
 .a-title--level3 {
-  font-size: var(--fontSizeL);
+text-align: center;
+font: Regular 10px/70px var(--fontFamilyMain);
+letter-spacing: 0px;
+color: var(--colorTextReversed);
+opacity: 1;;
 }
 
 .a-title--reversed {

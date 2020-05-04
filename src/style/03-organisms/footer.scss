@@ -1,14 +1,7 @@
 .o-footer {
+  flex-direction: column;
   display: flex;
   align-items: center;
-  background-color: var(--colorPrimary);
+  background-color: var(--colorBackground);
   padding: var(--spaceM);
-
-  & > * + * {
-    margin-left: var(--spaceS);
-  }
-
-  & > :last-child {
-    margin-left: auto;
-  }
 }
